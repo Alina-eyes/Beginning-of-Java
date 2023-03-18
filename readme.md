@@ -2,7 +2,7 @@ My S.M.A.R.T.
 
 Get a certificate Hillel automation
 
-Comprehend all the nuances of certification
+Study all the nuances of certification
 
 Upgrade capabilities for market demand
 
