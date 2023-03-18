@@ -4,7 +4,7 @@ Get a certificate Hillel automation
 
 Understand all the nuances of certification
 
-Upgrade attainments for market demand
+Upgrade capabilities for market demand
 
 To keep up with the times
 
