@@ -23,5 +23,8 @@ public class Main {
         mass[19]=20;
         System.out.print(mass[10]);
 
+
+            }
+        }
     }
 }
