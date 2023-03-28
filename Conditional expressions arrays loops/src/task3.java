@@ -11,7 +11,9 @@ public class task3 {
             if (numberFromTheArray > 5 && numberFromTheArray < 45) {
                 totalSum = totalSum + numberFromTheArray;
             }
-            // TODO: write the if statement printing the number if it's even and positive
+            if (numberFromTheArray > 0 && numberFromTheArray % 2 == 0) {
+                System.out.println("Found positive and even number: " + numberFromTheArray);
+            }
         }
         System.out.println("Sum of all elements of the array that are >5 and <45: " + totalSum);
     }
