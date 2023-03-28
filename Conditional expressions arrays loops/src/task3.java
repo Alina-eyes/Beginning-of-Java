@@ -1,6 +1,6 @@
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Main {
+public class task3 {
     public static void main(String[] args) {
         int[] arrayOfNumbers = new int[100];
         for (int i=0; i<100; i++) {
