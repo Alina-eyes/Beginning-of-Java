@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Conditional expressions arrays loops/Conditional expressions arrays loops.iml" filepath="$PROJECT_DIR$/Conditional expressions arrays loops/Conditional expressions arrays loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hillel QA auto 2023.iml" filepath="$PROJECT_DIR$/Hillel QA auto 2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simple Calculator/Simple Calculator.iml" filepath="$PROJECT_DIR$/Simple Calculator/Simple Calculator.iml" />
     </modules>
   </component>
 </project>
