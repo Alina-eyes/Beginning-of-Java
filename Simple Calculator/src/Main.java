@@ -11,7 +11,7 @@ public class Main {
         int number2 = inputScanner.nextInt();
 
         System.out.print("What operation to do (+,-,/,*,%): ");
-        String operation = inputScanner.next();
+        String operation = inputScanner.next("(\\+|\\-|\\/|\\*|\\%)");
 
         System.out.println("Operation is: " + operation);
 

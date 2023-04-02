@@ -4,7 +4,7 @@ public class task3 {
     public static void main(String[] args) {
         int[] arrayOfNumbers = new int[100];
         for (int i=0; i<100; i++) {
-            arrayOfNumbers[i] = ThreadLocalRandom.current().nextInt(-100, 100);;
+            arrayOfNumbers[i] = ThreadLocalRandom.current().nextInt(-100, 100);
         }
         int totalSum = 0;
         for (int numberFromTheArray: arrayOfNumbers) {
