@@ -25,6 +25,8 @@ public class Main {
         if (operation.equals("/")) {
             result = divide(number1, number2);
         }
+        if (number2 == 0) {throw new Exception("Cannot divide by zero");
+        }
         if (operation.equals("*")) {
             result = multiply(number1, number2);
         }
@@ -49,6 +51,6 @@ public class Main {
         return a * b;
     }
     static int modulo (int a, int b) {
-        return a % b;
+        return a * b / 100;
     }
 }
