@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Operation is: " + operation);
 
-        int result = 0;
+        float result = 0;
         if (operation.equals("+")) {
             result = add(number1, number2);
         }
@@ -35,23 +35,23 @@ public class Main {
         System.out.println("The result of operation " + operation + " is: " + result);
     }
 
-    static int add(int a, int b) {
+    static float add(int a, int b) {
         return a + b;
     }
 
-    static int minus(int a, int b) {
+    static float minus(int a, int b) {
         return a - b;
     }
-    public static int divide (int a, int b) throws Exception {
+    public static float divide (int a, int b) throws Exception {
         if (b == 0) {
             throw new Exception("You are not allowed to divide by zero");
         }
-        return a / b;
+        return a / ((float) b);
     }
-    static int multiply (int a, int b) {
+    static float multiply (int a, int b) {
         return a * b;
     }
-    static int percent(int a, int b) {
-        return a * b / 100;
+    static float percent(int a, int b) {
+        return (a * b) / 100.0f;
     }
 }
