@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner inputScanner = new Scanner(System.in);
 
         System.out.print("Enter first integer: ");
@@ -25,13 +25,11 @@ public class Main {
         if (operation.equals("/")) {
             result = divide(number1, number2);
         }
-        if (number2 == 0) {throw new Exception("Cannot divide by zero");
-        }
         if (operation.equals("*")) {
             result = multiply(number1, number2);
         }
         if (operation.equals("%")) {
-            result = modulo(number1, number2);
+            result = percent(number1, number2);
         }
 
         System.out.println("The result of operation " + operation + " is: " + result);
@@ -44,13 +42,16 @@ public class Main {
     static int minus(int a, int b) {
         return a - b;
     }
-    static int divide (int a, int b) {
+    public static int divide (int a, int b) throws Exception {
+        if (b == 0) {
+            throw new Exception("You are not allowed to divide by zero");
+        }
         return a / b;
     }
     static int multiply (int a, int b) {
         return a * b;
     }
-    static int modulo (int a, int b) {
+    static int percent(int a, int b) {
         return a * b / 100;
     }
 }
