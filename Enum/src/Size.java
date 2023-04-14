@@ -5,10 +5,19 @@ public enum Size {
     EXTRA_LARGE("XL", 17, 55);
 
     private String abbrName;
+    public String getAbbrName() {
+        return this.abbrName;
+    }
 
     private int width;
+    public int getWidth() {
+        return this.width;
+    }
 
     private int length;
+    public int getLength() {
+        return this.length;
+    }
 
     Size(String abbrName, int width, int length) {
         this.abbrName = abbrName;
